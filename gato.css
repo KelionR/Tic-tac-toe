@@ -1,0 +1,28 @@
+body{
+background-color: rgb(79, 228, 106);
+}
+
+h1{font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+.container {
+background-image: url(https://img.freepik.com/vector-gratis/fondo-textura-acuarela-decorativa-verde-suave_1055-8856.jpg); background-repeat: no-repeat; background-size: cover;
+    text-align: center;
+    }
+
+    .game-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 50px auto;
+    }
+
+    .game-cell {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0001px #333333;
+    border: 1px solid;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+    }
+    
+    
